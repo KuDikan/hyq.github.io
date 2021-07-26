@@ -1,1 +1,1 @@
-# hyq.github.io
+# hyq.kudikan.tk
