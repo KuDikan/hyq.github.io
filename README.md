@@ -1,1 +1,1 @@
-# [hyq.kudikan.tk](https://hyq.kjgod.tk)
+# [hyq.kjgod.cf](https://hyq.kjgod.cf)
