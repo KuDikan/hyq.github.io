@@ -1,6 +1,46 @@
 <head>
 <title>调查问卷</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css" integrity="sha256-uqQQGnDcmRKvhKwc5Vm4XT1GQ2oV6t1U0NR2N9tV+BQ=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
 <script type='text/javascript' src='https://www.wjx.cn/handler/jqemed.ashx?activity=Qw7TrGa&width=760&source=iframe'></script>
+<div id="aplayer" style="width:300px; margin-bottom:10px;"></div>
+  <script type="4a33b3bf07c391184b740b25-text/javascript">
+        const ap = new APlayer({
+            container: document.getElementById('aplayer'),
+            listFolded: false,
+            listMaxHeight: 90,
+            autoplay: true,
+            order: 'random',
+            loop: 'all',
+            theme: '#a13300',
+            audio: [{
+                    name: '灵堂金曲1',
+                    artist: ' ',
+                    cover: './assets/img/cover.png',
+                    url: './assets/music/bgm.mp3'
+                },
+                {
+                    name: '灵堂金曲2',
+                    artist: ' ',
+                    cover: './assets/img/cover.png',
+                    url: './assets/music/bgm2.mp3'
+                },
+                {
+                    name: '灵堂金曲3',
+                    artist: ' ',
+                    cover: './assets/img/cover.png',
+                    url: './assets/music/bgm3.mp3'
+                },
+                {
+                    name: '灵堂金曲4',
+                    artist: ' ',
+                    cover: './assets/img/cover.png',
+                    url: './assets/music/bgm4.mp3'
+                }
+            ]
+        });
+    </script>
+  <script src="./assets/js/autoload.js"></script>
 </body>
